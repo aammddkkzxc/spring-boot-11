@@ -3,6 +3,8 @@ logging:
     hello.controller: debug
 
 management:
+  server:
+    port: 9292
   endpoints:
     web:
       exposure:
