@@ -3,8 +3,6 @@ logging:
     hello.controller: debug
 
 management:
-  server:
-    port: 9292
   endpoints:
     web:
       exposure:
@@ -28,4 +26,7 @@ info:
   app:
     name: hello-actuator
     company: yh
-
+server:
+  tomcat:
+    mbeanregistry:
+      enabled: true
