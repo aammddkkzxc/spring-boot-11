@@ -1,3 +1,7 @@
+logging:
+  level:
+    hello.controller: debug
+
 management:
   endpoints:
     web:
